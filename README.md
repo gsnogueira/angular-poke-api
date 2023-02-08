@@ -1,3 +1,3 @@
 # angular-pokedex
 
-![image](https://user-images.githubusercontent.com/34325394/217638379-aeb704a1-7966-47ff-bdce-a6b08d8ac312.png)
+![image](https://user-images.githubusercontent.com/34325394/217638598-c698fbff-d021-4b00-887f-2be35be29705.png)

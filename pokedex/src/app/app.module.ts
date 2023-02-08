@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PokeListComponent } from './poke-list/poke-list.component';
 import { HomeComponent } from './home/home.component';
+import { PokeListService } from './poke-list/poke-list.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,10 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PokeListService, HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
